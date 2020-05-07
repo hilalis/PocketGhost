@@ -1,0 +1,13 @@
+C:\Users\Bol\Documents\SharpDevelop Projects\PocketGhost\PocketGhost\obj\Debug\PocketGhost.csprojResolveAssemblyReference.cache
+C:\Users\Bol\Documents\SharpDevelop Projects\PocketGhost\PocketGhost\obj\Debug\PocketGhost.Form1.resources
+C:\Users\Bol\Documents\SharpDevelop Projects\PocketGhost\PocketGhost\obj\Debug\PocketGhost.MainForm.resources
+C:\Users\Bol\Documents\SharpDevelop Projects\PocketGhost\PocketGhost\obj\Debug\PocketGhost.csproj.GenerateResource.Cache
+D:\PocketGhost\PocketGhost\bin\Debug\PocketGhost.exe.config
+D:\PocketGhost\PocketGhost\bin\Debug\PocketGhost.exe
+D:\PocketGhost\PocketGhost\bin\Debug\PocketGhost.pdb
+D:\PocketGhost\PocketGhost\obj\Debug\PocketGhost.csprojResolveAssemblyReference.cache
+D:\PocketGhost\PocketGhost\obj\Debug\PocketGhost.MainForm.resources
+D:\PocketGhost\PocketGhost\obj\Debug\PocketGhost.csproj.GenerateResource.Cache
+D:\PocketGhost\PocketGhost\obj\Debug\PocketGhost.exe
+D:\PocketGhost\PocketGhost\obj\Debug\PocketGhost.pdb
+D:\PocketGhost\PocketGhost\obj\Debug\PocketGhost.Form1.resources
