@@ -11,3 +11,12 @@ D:\PocketGhost\PocketGhost\obj\Debug\PocketGhost.csproj.GenerateResource.Cache
 D:\PocketGhost\PocketGhost\obj\Debug\PocketGhost.exe
 D:\PocketGhost\PocketGhost\obj\Debug\PocketGhost.pdb
 D:\PocketGhost\PocketGhost\obj\Debug\PocketGhost.Form1.resources
+D:\PocketGhost-master\bin\Debug\PocketGhost.exe.config
+D:\PocketGhost-master\bin\Debug\PocketGhost.exe
+D:\PocketGhost-master\bin\Debug\PocketGhost.pdb
+D:\PocketGhost-master\obj\Debug\PocketGhost.csprojResolveAssemblyReference.cache
+D:\PocketGhost-master\obj\Debug\PocketGhost.Form1.resources
+D:\PocketGhost-master\obj\Debug\PocketGhost.MainForm.resources
+D:\PocketGhost-master\obj\Debug\PocketGhost.csproj.GenerateResource.Cache
+D:\PocketGhost-master\obj\Debug\PocketGhost.exe
+D:\PocketGhost-master\obj\Debug\PocketGhost.pdb
