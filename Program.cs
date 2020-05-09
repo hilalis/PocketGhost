@@ -1,4 +1,4 @@
-﻿//Dosyayı değiştirmeyiniz.(C) Salihsoft
+
 using System;
 using System.Windows.Forms;
 
