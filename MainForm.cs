@@ -30,7 +30,7 @@ namespace PocketGhost
 		}
 		void MainFormLoad(object sender, EventArgs e)
 		{
-	
+
 		}
 		void Button1Click(object sender, EventArgs e)
 		{
@@ -104,7 +104,7 @@ namespace PocketGhost
 		}
 		void TextBox4Click(object sender, EventArgs e)
 		{
-
+			MessageBox.Show("Information","Please put plus between the words :)");
 		}
 		void TextBox3Click(object sender, EventArgs e)
 		{
@@ -125,19 +125,99 @@ namespace PocketGhost
 		}
 		void Button11Click(object sender, EventArgs e)
 		{
-			textBox1.Visible = true;
+			textBox3.Visible = true;
 			
 			
 		}
 		void PictureBox3Click(object sender, EventArgs e)
 		{
-	
+			webBrowser1.Refresh();
 		}
 		void Button5Click(object sender, EventArgs e)
 		{
 			Form1 frm1 = new Form1();
 			frm1.Show();
 			this.Hide();
+		}
+		void WebBrowser1Navigating(object sender, WebBrowserNavigatingEventArgs e)
+		{
+			pictureBox6.Visible = true;
+			statusStrip1.Visible = true;
+			toolStripStatusLabel1.Visible = true;
+			toolStripStatusLabel1.Text = "Connecting site:" + textBox1.Text;
+		
+		}
+		void WebBrowser1Navigated(object sender, WebBrowserNavigatedEventArgs e)
+		{
+			pictureBox6.Visible = false;
+		}
+		void StatusStrip1ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+		{
+	
+		}
+		void PictureBox5Click(object sender, EventArgs e)
+		{
+			webBrowser1.GoBack();
+		}
+		void PictureBox4Click(object sender, EventArgs e)
+		{
+			webBrowser1.GoForward();
+		}
+		void PictureBox7Click(object sender, EventArgs e)
+		{
+			webBrowser1.Stop();
+		}
+		void Button13Click(object sender, EventArgs e)
+		{
+			panel5.Visible = true;
+			button14.Visible = true;
+		}
+		void PictureBox8Click(object sender, EventArgs e)
+		{
+			webBrowser1.Navigate("https://www.instagram.com/");	
+		}
+		void TextBox1KeyDown(object sender, KeyEventArgs e)
+		{
+			if(e.KeyCode == Keys.Enter)
+			{
+				webBrowser1.Navigate(textBox1.Text);
+			}
+		}
+		void Button12Click(object sender, EventArgs e)
+		{
+			textBox4.Visible = true;
+			pictureBox9.Visible = true;
+			button12.Visible = false;
+		}
+		void PictureBox9Click(object sender, EventArgs e)
+		{
+			webBrowser1.Navigate("youtube.com/results?search_query="+textBox4.Text);
+		}
+		void TextBox7TextChanged(object sender, EventArgs e)
+		{
+	
+		}
+		void ToolStripStatusLabel1Click(object sender, EventArgs e)
+		{
+	
+		}
+		void Panel6Paint(object sender, PaintEventArgs e)
+		{
+	
+		}
+		void PictureBox10Click(object sender, EventArgs e)
+		{
+				webBrowser1.Navigate("https://www.youtube.com/");	
+		}
+		void PictureBox11Click(object sender, EventArgs e)
+		{
+	webBrowser1.Navigate("https://www.facebook.com/");
+		}
+		void Button14Click(object sender, EventArgs e)
+		{
+	panel5.Visible = false;
+			button14.Visible = false;
+			button13.Visible = true;
 		}
 	}
 }
